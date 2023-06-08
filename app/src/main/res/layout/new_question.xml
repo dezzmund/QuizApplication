@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewQuestionActivity">
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Add a New Questions"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_QuestionID"
+                android:layout_gravity="center"
+                android:minWidth="320dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:hint="Question ID"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/tv_QuestionDescription"
+                android:layout_gravity="center"
+                android:minWidth="320dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:hint="Question Description"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/tv_option1"
+                android:layout_gravity="center"
+                android:minWidth="320dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:hint="Right Answer"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/tv_option2"
+                android:layout_gravity="center"
+                android:minWidth="320dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:hint="Wrong Answer"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/tv_option3"
+                android:layout_gravity="center"
+                android:minWidth="320dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:hint="Wrong Answer"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/tv_option4"
+                android:layout_gravity="center"
+                android:minWidth="320dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:hint="Wrong Answer"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btn_AddQuestion"
+                android:layout_gravity="center"
+                android:minWidth="320dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:backgroundTint="@color/lightGreen"
+                android:text="Add Question"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
